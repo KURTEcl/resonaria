@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "resonaria": {
+      "url": "http://127.0.0.1:8017/mcp",
+      "headers": {
+        "Authorization": "Bearer PASTE_TOKEN_FROM_php_artisan_mcp_token"
+      }
+    }
+  }
+}

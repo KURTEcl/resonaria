@@ -1,0 +1,604 @@
+{
+  "profiles": [
+    {
+      "slug": "jose-antonio-kast",
+      "display_name": "José Antonio Kast Rist",
+      "short_name": "Kast",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "José Antonio Kast", "alias_type": "nombre_completo" },
+        { "alias": "José Antonio Kast Rist", "alias_type": "nombre_completo" },
+        { "alias": "Kast", "alias_type": "apellido" },
+        { "alias": "Presidente Kast", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Presidente de la República",
+          "organization": "Presidencia de la República",
+          "level": "presidente",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": [
+        {
+          "platform": "x",
+          "handle": "joseantoniokast",
+          "account_kind": "personal",
+          "use_for_avatar": true,
+          "started_on": "2010-03-01"
+        },
+        {
+          "platform": "x",
+          "handle": "presidentekast",
+          "account_kind": "institucional",
+          "label": "Presidencia de la República, mandato 2026–2030",
+          "role_title": "Presidente de la República",
+          "started_on": "2026-03-11"
+        }
+      ]
+    },
+    {
+      "slug": "claudio-alvarado",
+      "display_name": "Claudio Alvarado",
+      "short_name": "Alvarado",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Claudio Alvarado", "alias_type": "nombre_completo" },
+        { "alias": "Claudio Patricio Alvarado", "alias_type": "nombre_completo" },
+        { "alias": "ministro del Interior", "alias_type": "cargo_generico" },
+        { "alias": "ministro Secretario General de Gobierno", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministro del Interior y Seguridad Pública",
+          "organization": "Ministerio del Interior",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        },
+        {
+          "title": "Ministro Secretario General de Gobierno",
+          "organization": "Secretaría General de Gobierno",
+          "level": "ministro",
+          "started_on": "2026-05-19"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "francisco-perez-mackenna",
+      "display_name": "Francisco Pérez Mackenna",
+      "short_name": "Pérez Mackenna",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Francisco Pérez Mackenna", "alias_type": "nombre_completo" },
+        { "alias": "José Francisco Pérez Mackenna", "alias_type": "nombre_completo" },
+        { "alias": "ministro de Relaciones Exteriores", "alias_type": "cargo_generico" },
+        { "alias": "canciller Pérez Mackenna", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministro de Relaciones Exteriores",
+          "organization": "Ministerio de Relaciones Exteriores",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "fernando-barros",
+      "display_name": "Fernando Barros",
+      "short_name": "Barros",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Fernando Barros", "alias_type": "nombre_completo" },
+        { "alias": "Fernando Barros Tocornal", "alias_type": "nombre_completo" },
+        { "alias": "ministro de Defensa", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministro de Defensa Nacional",
+          "organization": "Ministerio de Defensa Nacional",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "jorge-quiroz",
+      "display_name": "Jorge Quiroz",
+      "short_name": "Quiroz",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Jorge Quiroz", "alias_type": "nombre_completo" },
+        { "alias": "Jorge Antonio Quiroz", "alias_type": "nombre_completo" },
+        { "alias": "ministro de Hacienda", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministro de Hacienda",
+          "organization": "Ministerio de Hacienda",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "martin-arrau",
+      "display_name": "Martín Arrau",
+      "short_name": "Arrau",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Martín Arrau", "alias_type": "nombre_completo" },
+        { "alias": "Martin Arrau", "alias_type": "nombre_completo" },
+        { "alias": "ministro de Seguridad", "alias_type": "cargo_generico" },
+        { "alias": "ministra de Seguridad", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministro de Seguridad Pública",
+          "organization": "Ministerio de Seguridad Pública",
+          "level": "ministro",
+          "started_on": "2026-05-19"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "jose-garcia-ruminot",
+      "display_name": "José García Ruminot",
+      "short_name": "García Ruminot",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "José García Ruminot", "alias_type": "nombre_completo" },
+        { "alias": "ministro Secretario General de la Presidencia", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministro Secretario General de la Presidencia",
+          "organization": "Secretaría General de la Presidencia",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "daniel-mas",
+      "display_name": "Daniel Mas",
+      "short_name": "Mas",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Daniel Mas", "alias_type": "nombre_completo" },
+        { "alias": "Daniel Sebastián Mas", "alias_type": "nombre_completo" },
+        { "alias": "ministro de Economía", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministro de Economía, Fomento y Turismo",
+          "organization": "Ministerio de Economía, Fomento y Turismo",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "maria-jesus-wulf",
+      "display_name": "María Jesús Wulf",
+      "short_name": "Wulf",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "María Jesús Wulf", "alias_type": "nombre_completo" },
+        { "alias": "Maria Jesus Wulf", "alias_type": "nombre_completo" },
+        { "alias": "Wulf", "alias_type": "apellido" },
+        { "alias": "ministra de Desarrollo Social", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministra de Desarrollo Social y Familia",
+          "organization": "Ministerio de Desarrollo Social y Familia",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": [
+        {
+          "platform": "tiktok",
+          "handle": "ministrawulf",
+          "account_kind": "institucional",
+          "role_title": "Ministra de Desarrollo Social y Familia",
+          "started_on": "2026-03-11"
+        }
+      ]
+    },
+    {
+      "slug": "maria-paz-arzola",
+      "display_name": "María Paz Arzola",
+      "short_name": "Arzola",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "María Paz Arzola", "alias_type": "nombre_completo" },
+        { "alias": "ministra de Educación", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministra de Educación",
+          "organization": "Ministerio de Educación",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "fernando-rabat",
+      "display_name": "Fernando Rabat",
+      "short_name": "Rabat",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Fernando Rabat", "alias_type": "nombre_completo" },
+        { "alias": "ministro de Justicia", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministro de Justicia y Derechos Humanos",
+          "organization": "Ministerio de Justicia y Derechos Humanos",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "tomas-rau",
+      "display_name": "Tomás Rau",
+      "short_name": "Rau",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Tomás Rau", "alias_type": "nombre_completo" },
+        { "alias": "Tomas Rau", "alias_type": "nombre_completo" },
+        { "alias": "ministro del Trabajo", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministro del Trabajo y Previsión Social",
+          "organization": "Ministerio del Trabajo y Previsión Social",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "may-chomali",
+      "display_name": "May Chomalí",
+      "short_name": "Chomalí",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "May Chomalí", "alias_type": "nombre_completo" },
+        { "alias": "May Chomali", "alias_type": "nombre_completo" },
+        { "alias": "May Paulina Chomalí", "alias_type": "nombre_completo" },
+        { "alias": "Chomalí", "alias_type": "apellido" },
+        { "alias": "ministra de Salud", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministra de Salud",
+          "organization": "Ministerio de Salud",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "louis-de-grange",
+      "display_name": "Louis de Grange",
+      "short_name": "De Grange",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Louis de Grange", "alias_type": "nombre_completo" },
+        { "alias": "ministro de Obras Públicas", "alias_type": "cargo_generico" },
+        { "alias": "ministro de Transportes", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministro de Obras Públicas",
+          "organization": "Ministerio de Obras Públicas",
+          "level": "ministro",
+          "started_on": "2026-05-19"
+        },
+        {
+          "title": "Ministro de Transportes y Telecomunicaciones",
+          "organization": "Ministerio de Transportes y Telecomunicaciones",
+          "level": "ministro",
+          "started_on": "2026-05-19"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "ivan-poduje",
+      "display_name": "Iván Poduje",
+      "short_name": "Poduje",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Iván Poduje", "alias_type": "nombre_completo" },
+        { "alias": "Ivan Poduje", "alias_type": "nombre_completo" },
+        { "alias": "Poduje", "alias_type": "apellido" },
+        { "alias": "ministro Poduje", "alias_type": "cargo_generico" },
+        { "alias": "ministro de Vivienda", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministro de Vivienda y Urbanismo",
+          "organization": "Ministerio de Vivienda y Urbanismo",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "jaime-campos",
+      "display_name": "Jaime Campos",
+      "short_name": "Campos",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Jaime Campos", "alias_type": "nombre_completo" },
+        { "alias": "ministro de Agricultura", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministro de Agricultura",
+          "organization": "Ministerio de Agricultura",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "catalina-parot",
+      "display_name": "Catalina Parot",
+      "short_name": "Parot",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Catalina Parot", "alias_type": "nombre_completo" },
+        { "alias": "María Catalina Parot", "alias_type": "nombre_completo" },
+        { "alias": "ministra de Bienes Nacionales", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministra de Bienes Nacionales",
+          "organization": "Ministerio de Bienes Nacionales",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "ximena-rincon",
+      "display_name": "Ximena Rincón",
+      "short_name": "Rincón",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Ximena Rincón", "alias_type": "nombre_completo" },
+        { "alias": "Ximena Rincon", "alias_type": "nombre_completo" },
+        { "alias": "ministra de Energía", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministra de Energía",
+          "organization": "Ministerio de Energía",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "francisca-toledo",
+      "display_name": "Francisca Toledo",
+      "short_name": "Toledo",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Francisca Toledo", "alias_type": "nombre_completo" },
+        { "alias": "ministra del Medio Ambiente", "alias_type": "cargo_generico" },
+        { "alias": "ministro del Medio Ambiente", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministra del Medio Ambiente",
+          "organization": "Ministerio del Medio Ambiente",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "judith-marin",
+      "display_name": "Judith Marín",
+      "short_name": "Marín",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Judith Marín", "alias_type": "nombre_completo" },
+        { "alias": "Judith Marin", "alias_type": "nombre_completo" },
+        { "alias": "ministra de la Mujer", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministra de la Mujer y la Equidad de Género",
+          "organization": "Ministerio de la Mujer y la Equidad de Género",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "francisco-riveros",
+      "display_name": "Francisco Riveros",
+      "short_name": "Riveros",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Francisco Riveros", "alias_type": "nombre_completo" },
+        { "alias": "ministro del Deporte", "alias_type": "cargo_generico" },
+        { "alias": "ministra del Deporte", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministro del Deporte",
+          "organization": "Ministerio del Deporte",
+          "level": "ministro",
+          "started_on": "2026-08-14"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "francisco-undurraga",
+      "display_name": "Francisco Undurraga",
+      "short_name": "Undurraga",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Francisco Undurraga", "alias_type": "nombre_completo" },
+        { "alias": "Juan Francisco Undurraga", "alias_type": "nombre_completo" },
+        { "alias": "ministro de Cultura", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministro de las Culturas, las Artes y el Patrimonio",
+          "organization": "Ministerio de las Culturas, las Artes y el Patrimonio",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "ximena-lincolao",
+      "display_name": "Ximena Lincolao",
+      "short_name": "Lincolao",
+      "kind": "ejecutivo",
+      "aliases": [
+        { "alias": "Ximena Lincolao", "alias_type": "nombre_completo" },
+        { "alias": "ministra de Ciencia", "alias_type": "cargo_generico" }
+      ],
+      "roles": [
+        {
+          "title": "Ministra de Ciencia, Tecnología, Conocimiento e Innovación",
+          "organization": "Ministerio de Ciencia, Tecnología, Conocimiento e Innovación",
+          "level": "ministro",
+          "started_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "gabriel-boric",
+      "display_name": "Gabriel Boric Font",
+      "short_name": "Boric",
+      "kind": "ejecutivo",
+      "status": "archived",
+      "aliases": [
+        { "alias": "Gabriel Boric", "alias_type": "nombre_completo" },
+        { "alias": "Boric", "alias_type": "apellido" }
+      ],
+      "roles": [
+        {
+          "title": "Presidente de la República",
+          "organization": "Presidencia de la República",
+          "level": "presidente",
+          "started_on": "2022-03-11",
+          "ended_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": [
+        {
+          "platform": "x",
+          "handle": "gabrielboric",
+          "account_kind": "personal",
+          "started_on": "2010-01-01",
+          "ended_on": "2026-03-11",
+          "status": "archived"
+        },
+        {
+          "platform": "x",
+          "handle": "presidencia_cl",
+          "account_kind": "institucional",
+          "label": "Presidencia, mandato Boric 2022–2026",
+          "started_on": "2022-03-11",
+          "ended_on": "2026-03-11",
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "slug": "rosa-maria-aurora-chomali",
+      "display_name": "Rosa María Aurora Chomali",
+      "short_name": "Chomali",
+      "kind": "ejecutivo",
+      "status": "archived",
+      "aliases": [
+        { "alias": "Aurora Chomali", "alias_type": "nombre_completo" },
+        { "alias": "Rosa María Aurora Chomali", "alias_type": "nombre_completo" }
+      ],
+      "roles": [
+        {
+          "title": "Ministra de Salud",
+          "organization": "Ministerio de Salud",
+          "level": "ministro",
+          "started_on": "2025-02-06",
+          "ended_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "carlos-montes",
+      "display_name": "Carlos Montes",
+      "short_name": "Montes",
+      "kind": "ejecutivo",
+      "status": "archived",
+      "aliases": [
+        { "alias": "Carlos Montes", "alias_type": "nombre_completo" }
+      ],
+      "roles": [
+        {
+          "title": "Ministro de Vivienda y Urbanismo",
+          "organization": "Ministerio de Vivienda y Urbanismo",
+          "level": "ministro",
+          "started_on": "2022-03-11",
+          "ended_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    },
+    {
+      "slug": "eduardo-poduje",
+      "display_name": "Eduardo Poduje",
+      "short_name": "Poduje",
+      "kind": "ejecutivo",
+      "status": "archived",
+      "aliases": [
+        { "alias": "Eduardo Poduje", "alias_type": "nombre_completo" }
+      ],
+      "roles": [
+        {
+          "title": "Ministro de Vivienda y Urbanismo",
+          "organization": "Ministerio de Vivienda y Urbanismo",
+          "level": "ministro",
+          "started_on": "2024-01-01",
+          "ended_on": "2026-03-11"
+        }
+      ],
+      "social_accounts": []
+    }
+  ]
+}

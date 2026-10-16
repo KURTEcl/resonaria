@@ -1,0 +1,48 @@
+# Generic nginx snippet for a Resonaria self-host.
+# Replace {INSTALL_DIR}, {DOMAIN}, and PHP-FPM socket paths for your server.
+
+server {
+  listen 443 ssl http2;
+  server_name {DOMAIN};
+
+  # SSL certificates: managed by your host (Certbot, CloudPanel, etc.)
+
+  root {INSTALL_DIR}/apps/web/.output/public;
+
+  location ^~ /api/ {
+    include fastcgi_params;
+    fastcgi_param SCRIPT_FILENAME {INSTALL_DIR}/apps/api/public/index.php;
+    fastcgi_param REQUEST_URI $request_uri;
+    fastcgi_pass unix:/run/php/php8.3-fpm.sock;
+  }
+
+  location ^~ /mcp {
+    include fastcgi_params;
+    fastcgi_param SCRIPT_FILENAME {INSTALL_DIR}/apps/api/public/index.php;
+    fastcgi_param REQUEST_URI $request_uri;
+    fastcgi_pass unix:/run/php/php8.3-fpm.sock;
+  }
+
+  location = /sitemap.xml {
+    try_files $uri @laravel_discovery;
+  }
+
+  location = /robots.txt {
+    try_files $uri @laravel_discovery;
+  }
+
+  location = /llms.txt {
+    try_files $uri @laravel_discovery;
+  }
+
+  location @laravel_discovery {
+    include fastcgi_params;
+    fastcgi_param SCRIPT_FILENAME {INSTALL_DIR}/apps/api/public/index.php;
+    fastcgi_param REQUEST_URI $request_uri;
+    fastcgi_pass unix:/run/php/php8.3-fpm.sock;
+  }
+
+  location / {
+    try_files $uri $uri/ /200.html;
+  }
+}

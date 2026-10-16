@@ -1,0 +1,9 @@
+{
+  "note": "Starter labels — import via desk or seeders; rename to match your beat.",
+  "categories": [
+    { "slug": "general", "label": "General" },
+    { "slug": "community", "label": "Community" },
+    { "slug": "environment", "label": "Environment" },
+    { "slug": "education", "label": "Education" }
+  ]
+}

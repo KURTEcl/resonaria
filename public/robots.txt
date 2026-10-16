@@ -1,0 +1,10 @@
+# Plantilla de respaldo. En producción Laravel genera /robots.txt desde los temas publicados.
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+Disallow: /preview/
+Disallow: /cuaderno
+Disallow: /mcp
+
+Sitemap: https://resonaria.cl/sitemap.xml

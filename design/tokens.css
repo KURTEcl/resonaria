@@ -1,0 +1,22 @@
+/**
+ * Resonaria default design tokens — import or merge into apps/web/app/assets/css/main.css
+ * Source: design/tokens.json
+ */
+:root {
+  --canvas: #f4f6f8;
+  --surface: #ffffff;
+  --text: #1c2430;
+  --ink: #12302d;
+  --muted: #566070;
+  --faint: #7a8494;
+  --border: #e0e5eb;
+  --rule: #d3dae2;
+  --primary: #0f766e;
+  --primary-hover: #0b5f59;
+  --primary-soft: #e3f2f0;
+  --secondary: #6a4cc0;
+  --rail-width: 64px;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --measure: 68ch;
+}
